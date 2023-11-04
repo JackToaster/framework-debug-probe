@@ -4185,12 +4185,12 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 227.33 200.66 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 253e9fe7-73c3-42c7-8168-86f6b3d98593)
-    (property "Reference" "R9" (at 227.33 195.58 90)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Reference" "R9" (at 227.33 203.2 90)
+      (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "330R" (at 227.33 198.12 90)
+    (property "Value" "4k7" (at 227.33 198.12 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 227.33 200.66 0)
@@ -4199,11 +4199,11 @@
     (property "Datasheet" "~" (at 227.33 200.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C25104" (at 227.33 200.66 0)
+    (property "LCSC" "C163826" (at 227.33 200.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 76d10737-5e7b-4a18-9511-460b9a759c03))
-    (pin "2" (uuid f54873a6-36aa-4b52-b326-2ab0391ea9bd))
+    (pin "1" (uuid 82635e47-8a98-4e02-8b34-a5e79aba8145))
+    (pin "2" (uuid 3b342269-04dd-4dac-939d-1fb28d2aca5e))
     (instances
       (project "pcb"
         (path "/74bf6178-dca6-4427-901b-44badacb7eee"
@@ -5108,12 +5108,12 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 227.33 208.28 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a93d04d-2cb7-448b-90be-a0064221bc53)
-    (property "Reference" "R10" (at 227.33 203.2 90)
+    (property "Reference" "R10" (at 227.33 210.82 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "330R" (at 227.33 205.74 90)
+    (property "Value" "4k7" (at 227.33 205.74 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 227.33 208.28 0)
@@ -5122,11 +5122,11 @@
     (property "Datasheet" "~" (at 227.33 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C25104" (at 227.33 208.28 0)
+    (property "LCSC" "C163826" (at 227.33 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 257e7403-6852-4e0a-a2f0-b1f12f0ba7f5))
-    (pin "2" (uuid ddad33b6-5db7-45e7-8b4c-0d6742c5c3dc))
+    (pin "1" (uuid 76ff9be5-54c3-4256-941d-c6ca133e2106))
+    (pin "2" (uuid b8d19e66-29f6-4892-bb9a-fa82109e6eea))
     (instances
       (project "pcb"
         (path "/74bf6178-dca6-4427-901b-44badacb7eee"
